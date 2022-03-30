@@ -48,6 +48,7 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        manifestPlaceholders = [hostName:"www.google.com"]
     }
 
     buildTypes {
